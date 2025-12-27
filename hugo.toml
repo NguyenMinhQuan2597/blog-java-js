@@ -1,0 +1,27 @@
+baseURL = "http://localhost/"
+languageCode = "vi"
+title = "Blog Lập Trình Mạng Java & JavaScript"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
+  showReadingTime = true
+  mainSections = []
+  customCSS = ["css/custom.css"]
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 2
+
+[[menu.main]]
+name = "Profile"
+url = "/profile/"
+weight = 3
