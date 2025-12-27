@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Xử lý ngoại lệ (Exception) trong Java | Blog Lập Trình Mạng Java &amp; JavaScript</title>
 <meta name="keywords" content="">
 <meta name="description" content="Giới thiệu
@@ -18,16 +18,16 @@ int a = 10 / 0;
 2. Khối try – catch
 Cú pháp xử lý ngoại lệ cơ bản:">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:3000/blog/java-09-xu-ly-ngoai-le/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.24fcb241a9b2bd1db1c8c7ca62acd81fbe504075300abd7171570505cdb1e709.css" integrity="sha256-JPyyQamyvR2xyMfKYqzYH75QQHUwCr1xcVcFBc2x5wk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:3000/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:3000/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:3000/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:3000/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:3000/safari-pinned-tab.svg">
+<link rel="canonical" href="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/">
+<link crossorigin="anonymous" href="/blog-java-js/assets/css/stylesheet.24fcb241a9b2bd1db1c8c7ca62acd81fbe504075300abd7171570505cdb1e709.css" integrity="sha256-JPyyQamyvR2xyMfKYqzYH75QQHUwCr1xcVcFBc2x5wk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nguyenminhquan2597.github.io/blog-java-js/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nguyenminhquan2597.github.io/blog-java-js/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:3000/blog/java-09-xu-ly-ngoai-le/">
+<link rel="alternate" hreflang="en" href="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/">
 <noscript>
     <style>
         #theme-toggle,
@@ -42,13 +42,85 @@ Cú pháp xử lý ngoại lệ cơ bản:">
         document.querySelector("html").dataset.theme = 'dark';
     }
 
+</script><meta property="og:url" content="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/">
+  <meta property="og:site_name" content="Blog Lập Trình Mạng Java & JavaScript">
+  <meta property="og:title" content="Xử lý ngoại lệ (Exception) trong Java">
+  <meta property="og:description" content="Giới thiệu Trong quá trình chạy chương trình Java, lỗi có thể xảy ra như chia cho 0, nhập sai dữ liệu hoặc truy cập file không tồn tại.
+Java cung cấp cơ chế Exception Handling để xử lý các lỗi này một cách an toàn.
+1. Exception là gì? Exception là sự kiện xảy ra trong lúc chạy chương trình làm gián đoạn luồng thực thi bình thường.
+Ví dụ lỗi chia cho 0: int a = 10 / 0; 2. Khối try – catch Cú pháp xử lý ngoại lệ cơ bản:">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Xử lý ngoại lệ (Exception) trong Java">
+<meta name="twitter:description" content="Giới thiệu
+Trong quá trình chạy chương trình Java, lỗi có thể xảy ra như chia cho 0, nhập sai dữ liệu hoặc truy cập file không tồn tại.
+Java cung cấp cơ chế Exception Handling để xử lý các lỗi này một cách an toàn.
+
+1. Exception là gì?
+Exception là sự kiện xảy ra trong lúc chạy chương trình làm gián đoạn luồng thực thi bình thường.
+Ví dụ lỗi chia cho 0:
+int a = 10 / 0;
+2. Khối try – catch
+Cú pháp xử lý ngoại lệ cơ bản:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "https://nguyenminhquan2597.github.io/blog-java-js/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Xử lý ngoại lệ (Exception) trong Java",
+      "item": "https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Xử lý ngoại lệ (Exception) trong Java",
+  "name": "Xử lý ngoại lệ (Exception) trong Java",
+  "description": "Giới thiệu Trong quá trình chạy chương trình Java, lỗi có thể xảy ra như chia cho 0, nhập sai dữ liệu hoặc truy cập file không tồn tại.\nJava cung cấp cơ chế Exception Handling để xử lý các lỗi này một cách an toàn.\n1. Exception là gì? Exception là sự kiện xảy ra trong lúc chạy chương trình làm gián đoạn luồng thực thi bình thường.\nVí dụ lỗi chia cho 0: int a = 10 / 0; 2. Khối try – catch Cú pháp xử lý ngoại lệ cơ bản:\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Giới thiệu Trong quá trình chạy chương trình Java, lỗi có thể xảy ra như chia cho 0, nhập sai dữ liệu hoặc truy cập file không tồn tại.\nJava cung cấp cơ chế Exception Handling để xử lý các lỗi này một cách an toàn.\n1. Exception là gì? Exception là sự kiện xảy ra trong lúc chạy chương trình làm gián đoạn luồng thực thi bình thường.\nVí dụ lỗi chia cho 0: int a = 10 / 0; 2. Khối try – catch Cú pháp xử lý ngoại lệ cơ bản:\ntry { // code có thể gây lỗi } catch (Exception e) { // code xử lý lỗi } Ví dụ: public class DemoException { public static void main(String[] args) { try { int a = 10 / 0; System.out.println(a); } catch (Exception e) { System.out.println(\"Co loi xay ra\"); } } } 3. Khối finally finally luôn được thực thi dù có lỗi hay không.\ntry { int a = 10 / 2; System.out.println(a); } catch (Exception e) { System.out.println(\"Loi\"); } finally { System.out.println(\"Ket thuc chuong trinh\"); } 4. Nhiều catch try { int[] arr = new int[3]; arr[5] = 10; } catch (ArithmeticException e) { System.out.println(\"Loi toan hoc\"); } catch (ArrayIndexOutOfBoundsException e) { System.out.println(\"Loi truy cap mang\"); } 5. Tạo Exception riêng class LoiTuTao extends Exception { public LoiTuTao(String message) { super(message); } } Sử dụng: public class DemoCustomException { static void kiemTraTuoi(int tuoi) throws LoiTuTao { if (tuoi \u003c 18) { throw new LoiTuTao(\"Tuoi phai \u003e= 18\"); } } public static void main(String[] args) { try { kiemTraTuoi(16); } catch (LoiTuTao e) { System.out.println(e.getMessage()); } } } Kết luận + Exception giúp chương trình không bị crash + Giúp xử lý lỗi rõ ràng, chuyên nghiệp + Là kỹ năng rất quan trọng khi lập trình Java thực tế ",
+  "wordCount" : "305",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Lập Trình Mạng Java \u0026 JavaScript",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nguyenminhquan2597.github.io/blog-java-js/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:3000/" accesskey="h" title="Blog Lập Trình Mạng Java &amp; JavaScript (Alt + H)">Blog Lập Trình Mạng Java &amp; JavaScript</a>
+            <a href="https://nguyenminhquan2597.github.io/blog-java-js/" accesskey="h" title="Blog Lập Trình Mạng Java &amp; JavaScript (Alt + H)">Blog Lập Trình Mạng Java &amp; JavaScript</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -74,17 +146,17 @@ Cú pháp xử lý ngoại lệ cơ bản:">
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:3000/" title="Home">
+                <a href="https://nguyenminhquan2597.github.io/blog-java-js/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:3000/blog/" title="Blog">
+                <a href="https://nguyenminhquan2597.github.io/blog-java-js/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:3000/profile/" title="Profile">
+                <a href="https://nguyenminhquan2597.github.io/blog-java-js/profile/" title="Profile">
                     <span>Profile</span>
                 </a>
             </li>
@@ -186,7 +258,7 @@ Java cung cấp cơ chế <strong>Exception Handling</strong> để xử lý cá
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:3000/">Blog Lập Trình Mạng Java &amp; JavaScript</a></span> · 
+        <span>&copy; 2025 <a href="https://nguyenminhquan2597.github.io/blog-java-js/">Blog Lập Trình Mạng Java &amp; JavaScript</a></span> · 
 
     <span>
         Powered by

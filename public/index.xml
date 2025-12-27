@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Lập Trình Mạng Java &amp; JavaScript</title>
-    <link>http://localhost:3000/</link>
+    <link>https://nguyenminhquan2597.github.io/blog-java-js/</link>
     <description>Recent content on Blog Lập Trình Mạng Java &amp; JavaScript</description>
     <generator>Hugo -- 0.153.3</generator>
     <language>vi</language>
-    <atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nguyenminhquan2597.github.io/blog-java-js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Profile cá nhân</title>
-      <link>http://localhost:3000/profile/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/profile/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/profile/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu-cá-nhân&#34;&gt;Giới thiệu cá nhân&lt;/h2&gt;
 &lt;p&gt;Xin chào! Mình tên là Quân sinh viên ngành Công nghệ thông tin của trường Hutech, có định hướng học tập và phát triển trong lĩnh vực lập trình mạng và phát triển phần mềm.&lt;/p&gt;
 &lt;p&gt;Blog này được xây dựng nhằm chia sẻ kiến thức, bài học và kinh nghiệm thực hành về Java và JavaScript trong quá trình học 4 năm đại học và thực hành tại trường.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Biến và kiểu dữ liệu trong Java</title>
-      <link>http://localhost:3000/blog/java-02-bien-va-kieu-du-lieu/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-02-bien-va-kieu-du-lieu/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Biến và kiểu dữ liệu là nền tảng của mọi chương trình Java.&lt;br&gt;
 Trong bài viết này, chúng ta sẽ tìm hiểu cách khai báo biến, các kiểu dữ liệu cơ bản và cách sử dụng chúng trong chương trình Java để lưu trữ và xử lý thông tin.&lt;/p&gt;
@@ -31,9 +31,9 @@ Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụn
     </item>
     <item>
       <title>Cấu trúc điều khiển trong Java</title>
-      <link>http://localhost:3000/blog/java-03-cau-truc-dieu-khien/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-03-cau-truc-dieu-khien/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-03-cau-truc-dieu-khien/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-03-cau-truc-dieu-khien/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Cấu trúc điều khiển giúp chương trình Java đưa ra quyết định và lặp lại các hành động theo điều kiện xác định.&lt;br&gt;
 Bài viết này trình bày các cấu trúc điều khiển phổ biến như câu lệnh điều kiện và vòng lặp, giúp chương trình hoạt động linh hoạt và logic hơn.&lt;/p&gt;
@@ -43,9 +43,9 @@ Bài viết này trình bày các cấu trúc điều khiển phổ biến như 
     </item>
     <item>
       <title>Collections trong Java</title>
-      <link>http://localhost:3000/blog/java-07-lap-trinh-huong-doi-tuong/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-07-lap-trinh-huong-doi-tuong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-07-lap-trinh-huong-doi-tuong/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-07-lap-trinh-huong-doi-tuong/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Collections trong Java là tập hợp các lớp và interface giúp lưu trữ, quản lý và xử lý dữ liệu hiệu quả hơn so với mảng truyền thống.&lt;/p&gt;
 &lt;hr&gt;
@@ -88,18 +88,18 @@ Bài viết này trình bày các cấu trúc điều khiển phổ biến như 
     </item>
     <item>
       <title>Giới thiệu ngôn ngữ Java</title>
-      <link>http://localhost:3000/blog/java-01-gioi-thieu-java/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-01-gioi-thieu-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-01-gioi-thieu-java/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-01-gioi-thieu-java/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Java là một trong những ngôn ngữ lập trình phổ biến nhất hiện nay, được sử dụng rộng rãi trong phát triển phần mềm, ứng dụng web, ứng dụng di động và hệ thống doanh nghiệp.&lt;br&gt;
 Bài viết này giới thiệu tổng quan về Java, lịch sử phát triển, đặc điểm nổi bật và lý do vì sao Java vẫn giữ vai trò quan trọng trong ngành công nghệ thông tin.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kế thừa và Đa hình trong Java</title>
-      <link>http://localhost:3000/blog/java-08-ke-thua-da-hinh/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-08-ke-thua-da-hinh/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Kế thừa (Inheritance) và Đa hình (Polymorphism) là hai khái niệm cốt lõi của lập trình hướng đối tượng trong Java.&lt;br&gt;
 Chúng giúp chương trình &lt;strong&gt;tái sử dụng code&lt;/strong&gt;, &lt;strong&gt;mở rộng dễ dàng&lt;/strong&gt; và &lt;strong&gt;linh hoạt hơn&lt;/strong&gt;.&lt;/p&gt;
@@ -110,9 +110,9 @@ Java sử dụng từ khóa &lt;code&gt;extends&lt;/code&gt; để thực hiện
     </item>
     <item>
       <title>Mảng trong Java</title>
-      <link>http://localhost:3000/blog/java-05-mang/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-05-mang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-05-mang/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-05-mang/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Mảng (Array) trong Java dùng để &lt;strong&gt;lưu nhiều giá trị cùng kiểu dữ liệu&lt;/strong&gt; trong một biến duy nhất.&lt;br&gt;
 Mỗi phần tử trong mảng được truy cập thông qua &lt;strong&gt;chỉ số (index)&lt;/strong&gt;, bắt đầu từ 0.&lt;/p&gt;
@@ -132,9 +132,9 @@ Mỗi phần tử trong mảng được truy cập thông qua &lt;strong&gt;ch�
     </item>
     <item>
       <title>Phương thức (Method) trong Java</title>
-      <link>http://localhost:3000/blog/java-06-ham-method/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-06-ham-method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-06-ham-method/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-06-ham-method/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Trong Java, phương thức (method) là một khối lệnh dùng để thực hiện một chức năng cụ thể.&lt;br&gt;
 Việc sử dụng phương thức giúp chương trình &lt;strong&gt;dễ đọc, dễ bảo trì và tái sử dụng code&lt;/strong&gt;.&lt;/p&gt;
@@ -153,9 +153,9 @@ Việc sử dụng phương thức giúp chương trình &lt;strong&gt;dễ đ�
     </item>
     <item>
       <title>Vòng lặp trong Java</title>
-      <link>http://localhost:3000/blog/java-04-vong-lap/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-04-vong-lap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-04-vong-lap/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-04-vong-lap/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;h2 id=&#34;trong-lập-trình-java-vòng-lặp-được-sử-dụng-để-thực-hiện-một-đoạn-chương-trình-nhiều-lần-mà-không-cần-viết-lặp-lại-mã-nguồn-việc-sử-dụng-vòng-lặp-giúp-chương-trình-ngắn-gọn-dễ-đọc-và-hiệu-quả-hơn-bài-học-này-giới-thiệu-các-vòng-lặp-cơ-bản-trong-java-như-for-while-và-dowhile&#34;&gt;Trong lập trình Java, vòng lặp được sử dụng để thực hiện một đoạn chương trình nhiều lần mà không cần viết lặp lại mã nguồn. Việc sử dụng vòng lặp giúp chương trình ngắn gọn, dễ đọc và hiệu quả hơn. Bài học này giới thiệu các vòng lặp cơ bản trong Java như for, while và do…while.&lt;/h2&gt;
 &lt;h2 id=&#34;1-vòng-lặp-for&#34;&gt;1. Vòng lặp for&lt;/h2&gt;
@@ -163,9 +163,9 @@ Việc sử dụng phương thức giúp chương trình &lt;strong&gt;dễ đ�
     </item>
     <item>
       <title>Xử lý ngoại lệ (Exception) trong Java</title>
-      <link>http://localhost:3000/blog/java-09-xu-ly-ngoai-le/</link>
+      <link>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:3000/blog/java-09-xu-ly-ngoai-le/</guid>
+      <guid>https://nguyenminhquan2597.github.io/blog-java-js/blog/java-09-xu-ly-ngoai-le/</guid>
       <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;
 &lt;p&gt;Trong quá trình chạy chương trình Java, lỗi có thể xảy ra như chia cho 0, nhập sai dữ liệu hoặc truy cập file không tồn tại.&lt;br&gt;
 Java cung cấp cơ chế &lt;strong&gt;Exception Handling&lt;/strong&gt; để xử lý các lỗi này một cách an toàn.&lt;/p&gt;
