@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/blog-java-js/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog-java-js/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Kế thừa và Đa hình trong Java | Blog Lập Trình Mạng Java &amp; JavaScript</title>
 <meta name="keywords" content="">
 <meta name="description" content="Giới thiệu
@@ -15,16 +15,16 @@ Chúng giúp chương trình tái sử dụng code, mở rộng dễ dàng và l
 Kế thừa cho phép một lớp con (subclass) kế thừa thuộc tính và phương thức của lớp cha (superclass).
 Java sử dụng từ khóa extends để thực hiện kế thừa.">
 <meta name="author" content="">
-<link rel="canonical" href="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/">
+<link rel="canonical" href="http://localhost:1313/blog-java-js/blog/java-08-ke-thua-da-hinh/">
 <link crossorigin="anonymous" href="../../blog-java-js/assets/css/stylesheet.24fcb241a9b2bd1db1c8c7ca62acd81fbe504075300abd7171570505cdb1e709.css" integrity="sha256-JPyyQamyvR2xyMfKYqzYH75QQHUwCr1xcVcFBc2x5wk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://nguyenminhquan2597.github.io/blog-java-js/apple-touch-icon.png">
-<link rel="mask-icon" href="https://nguyenminhquan2597.github.io/blog-java-js/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/blog-java-js/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog-java-js/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog-java-js/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/blog-java-js/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/blog-java-js/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog-java-js/blog/java-08-ke-thua-da-hinh/">
 <noscript>
     <style>
         #theme-toggle,
@@ -39,82 +39,13 @@ Java sử dụng từ khóa extends để thực hiện kế thừa.">
         document.querySelector("html").dataset.theme = 'dark';
     }
 
-</script><meta property="og:url" content="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/">
-  <meta property="og:site_name" content="Blog Lập Trình Mạng Java & JavaScript">
-  <meta property="og:title" content="Kế thừa và Đa hình trong Java">
-  <meta property="og:description" content="Giới thiệu Kế thừa (Inheritance) và Đa hình (Polymorphism) là hai khái niệm cốt lõi của lập trình hướng đối tượng trong Java.
-Chúng giúp chương trình tái sử dụng code, mở rộng dễ dàng và linh hoạt hơn.
-1. Kế thừa trong Java Kế thừa cho phép một lớp con (subclass) kế thừa thuộc tính và phương thức của lớp cha (superclass).
-Java sử dụng từ khóa extends để thực hiện kế thừa.">
-  <meta property="og:locale" content="vi">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Kế thừa và Đa hình trong Java">
-<meta name="twitter:description" content="Giới thiệu
-Kế thừa (Inheritance) và Đa hình (Polymorphism) là hai khái niệm cốt lõi của lập trình hướng đối tượng trong Java.
-Chúng giúp chương trình tái sử dụng code, mở rộng dễ dàng và linh hoạt hơn.
-
-1. Kế thừa trong Java
-Kế thừa cho phép một lớp con (subclass) kế thừa thuộc tính và phương thức của lớp cha (superclass).
-Java sử dụng từ khóa extends để thực hiện kế thừa.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Blogs",
-      "item": "https://nguyenminhquan2597.github.io/blog-java-js/blog/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Kế thừa và Đa hình trong Java",
-      "item": "https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Kế thừa và Đa hình trong Java",
-  "name": "Kế thừa và Đa hình trong Java",
-  "description": "Giới thiệu Kế thừa (Inheritance) và Đa hình (Polymorphism) là hai khái niệm cốt lõi của lập trình hướng đối tượng trong Java.\nChúng giúp chương trình tái sử dụng code, mở rộng dễ dàng và linh hoạt hơn.\n1. Kế thừa trong Java Kế thừa cho phép một lớp con (subclass) kế thừa thuộc tính và phương thức của lớp cha (superclass).\nJava sử dụng từ khóa extends để thực hiện kế thừa.\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "Giới thiệu Kế thừa (Inheritance) và Đa hình (Polymorphism) là hai khái niệm cốt lõi của lập trình hướng đối tượng trong Java.\nChúng giúp chương trình tái sử dụng code, mở rộng dễ dàng và linh hoạt hơn.\n1. Kế thừa trong Java Kế thừa cho phép một lớp con (subclass) kế thừa thuộc tính và phương thức của lớp cha (superclass).\nJava sử dụng từ khóa extends để thực hiện kế thừa.\nVí dụ lớp cha: class Nguoi { String ten; void chao() { System.out.println(\"Xin chao, toi la \" + ten); } } Lớp con kế thừa lớp cha: class SinhVien extends Nguoi { String maSV; void hocTap() { System.out.println(\"Sinh vien dang hoc tap\"); } } 2. Sử dụng đối tượng kế thừa public class Main { public static void main(String[] args) { SinhVien sv = new SinhVien(); sv.ten = \"Nguyen Van A\"; sv.maSV = \"SV01\"; sv.chao(); sv.hocTap(); } } 3. Ghi đè phương thức (Method Overriding) Lớp con có thể ghi đè phương thức của lớp cha để thay đổi cách hoạt động.\nclass SinhVien extends Nguoi { @Override void chao() { System.out.println(\"Xin chao, toi la sinh vien\"); } } 4. Đa hình trong Java Đa hình cho phép một phương thức có nhiều cách thực hiện khác nhau, tùy thuộc vào đối tượng cụ thể.\nVí dụ: Nguoi n = new SinhVien(); n.chao(); Dù biến n có kiểu Nguoi, nhưng phương thức chao() của SinhVien vẫn được gọi. 5. Ví dụ tổng hợp kế thừa và đa hình class DongVat { void keu() { System.out.println(\"Dong vat keu\"); } } class Cho extends DongVat { @Override void keu() { System.out.println(\"Cho keu gau gau\"); } } class Meo extends DongVat { @Override void keu() { System.out.println(\"Meo keu meo meo\"); } } public class Main { public static void main(String[] args) { DongVat dv1 = new Cho(); DongVat dv2 = new Meo(); dv1.keu(); dv2.keu(); } } Kết luận +Kế thừa giúp tái sử dụng code +Đa hình giúp chương trình linh hoạt +Hai khái niệm này là nền tảng của OOP trong Java -Nắm vững kế thừa và đa hình sẽ giúp bạn xây dựng các chương trình Java lớn và dễ mở rộng. ",
-  "wordCount" : "365",
-  "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://nguyenminhquan2597.github.io/blog-java-js/blog/java-08-ke-thua-da-hinh/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Blog Lập Trình Mạng Java \u0026 JavaScript",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://nguyenminhquan2597.github.io/blog-java-js/favicon.ico"
-    }
-  }
-}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://nguyenminhquan2597.github.io/blog-java-js/" accesskey="h" title="Blog Lập Trình Mạng Java &amp; JavaScript (Alt + H)">Blog Lập Trình Mạng Java &amp; JavaScript</a>
+            <a href="http://localhost:1313/blog-java-js/" accesskey="h" title="Blog Lập Trình Mạng Java &amp; JavaScript (Alt + H)">Blog Lập Trình Mạng Java &amp; JavaScript</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -140,17 +71,17 @@ Java sử dụng từ khóa extends để thực hiện kế thừa.">
         </div>
         <ul id="menu">
             <li>
-                <a href="https://nguyenminhquan2597.github.io/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyenminhquan2597.github.io/blog/" title="Blog">
+                <a href="http://localhost:1313/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyenminhquan2597.github.io/profile/" title="Profile">
+                <a href="http://localhost:1313/profile/" title="Profile">
                     <span>Profile</span>
                 </a>
             </li>
@@ -265,7 +196,7 @@ Java sử dụng từ khóa <code>extends</code> để thực hiện kế thừa
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://nguyenminhquan2597.github.io/blog-java-js/">Blog Lập Trình Mạng Java &amp; JavaScript</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/blog-java-js/">Blog Lập Trình Mạng Java &amp; JavaScript</a></span> · 
 
     <span>
         Powered by

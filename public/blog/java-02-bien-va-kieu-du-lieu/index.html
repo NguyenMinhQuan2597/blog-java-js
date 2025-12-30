@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="light">
 
-<head><meta charset="utf-8">
+<head><script src="/blog-java-js/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog-java-js/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Biến và kiểu dữ liệu trong Java | Blog Lập Trình Mạng Java &amp; JavaScript</title>
 <meta name="keywords" content="">
 <meta name="description" content="Giới thiệu
@@ -15,16 +15,16 @@ Trong bài viết này, chúng ta sẽ tìm hiểu cách khai báo biến, các 
 Biến dùng để lưu trữ dữ liệu trong chương trình.
 Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụng.">
 <meta name="author" content="">
-<link rel="canonical" href="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/">
+<link rel="canonical" href="http://localhost:1313/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/">
 <link crossorigin="anonymous" href="../../blog-java-js/assets/css/stylesheet.24fcb241a9b2bd1db1c8c7ca62acd81fbe504075300abd7171570505cdb1e709.css" integrity="sha256-JPyyQamyvR2xyMfKYqzYH75QQHUwCr1xcVcFBc2x5wk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://nguyenminhquan2597.github.io/blog-java-js/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://nguyenminhquan2597.github.io/blog-java-js/apple-touch-icon.png">
-<link rel="mask-icon" href="https://nguyenminhquan2597.github.io/blog-java-js/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/blog-java-js/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/blog-java-js/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/blog-java-js/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/blog-java-js/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/blog-java-js/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/">
 <noscript>
     <style>
         #theme-toggle,
@@ -39,82 +39,13 @@ Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụn
         document.querySelector("html").dataset.theme = 'dark';
     }
 
-</script><meta property="og:url" content="https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/">
-  <meta property="og:site_name" content="Blog Lập Trình Mạng Java & JavaScript">
-  <meta property="og:title" content="Biến và kiểu dữ liệu trong Java">
-  <meta property="og:description" content="Giới thiệu Biến và kiểu dữ liệu là nền tảng của mọi chương trình Java.
-Trong bài viết này, chúng ta sẽ tìm hiểu cách khai báo biến, các kiểu dữ liệu cơ bản và cách sử dụng chúng trong chương trình Java để lưu trữ và xử lý thông tin.
-1. Biến trong Java Biến dùng để lưu trữ dữ liệu trong chương trình.
-Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụng.">
-  <meta property="og:locale" content="vi">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Biến và kiểu dữ liệu trong Java">
-<meta name="twitter:description" content="Giới thiệu
-Biến và kiểu dữ liệu là nền tảng của mọi chương trình Java.
-Trong bài viết này, chúng ta sẽ tìm hiểu cách khai báo biến, các kiểu dữ liệu cơ bản và cách sử dụng chúng trong chương trình Java để lưu trữ và xử lý thông tin.
-
-1. Biến trong Java
-Biến dùng để lưu trữ dữ liệu trong chương trình.
-Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụng.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Blogs",
-      "item": "https://nguyenminhquan2597.github.io/blog-java-js/blog/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Biến và kiểu dữ liệu trong Java",
-      "item": "https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Biến và kiểu dữ liệu trong Java",
-  "name": "Biến và kiểu dữ liệu trong Java",
-  "description": "Giới thiệu Biến và kiểu dữ liệu là nền tảng của mọi chương trình Java.\nTrong bài viết này, chúng ta sẽ tìm hiểu cách khai báo biến, các kiểu dữ liệu cơ bản và cách sử dụng chúng trong chương trình Java để lưu trữ và xử lý thông tin.\n1. Biến trong Java Biến dùng để lưu trữ dữ liệu trong chương trình.\nMỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụng.\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "Giới thiệu Biến và kiểu dữ liệu là nền tảng của mọi chương trình Java.\nTrong bài viết này, chúng ta sẽ tìm hiểu cách khai báo biến, các kiểu dữ liệu cơ bản và cách sử dụng chúng trong chương trình Java để lưu trữ và xử lý thông tin.\n1. Biến trong Java Biến dùng để lưu trữ dữ liệu trong chương trình.\nMỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụng.\n2. Các kiểu dữ liệu cơ bản int: số nguyên double: số thực char: ký tự boolean: đúng hoặc sai String: chuỗi ký tự 3. Ví dụ khai báo biến int tuoi = 20; double diemTrungBinh = 8.5; char gioiTinh = 'M'; boolean daTotNghiep = false; String hoTen = \"Nguyen Van A\"; Kết luận Bài viết đã trình bày cách khai báo biến và các kiểu dữ liệu cơ bản trong Java. Việc hiểu rõ biến và kiểu dữ liệu giúp người học xây dựng chương trình chính xác, tối ưu bộ nhớ và tạo nền tảng vững chắc cho các nội dung lập trình tiếp theo. ",
-  "wordCount" : "185",
-  "inLanguage": "en",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://nguyenminhquan2597.github.io/blog-java-js/blog/java-02-bien-va-kieu-du-lieu/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Blog Lập Trình Mạng Java \u0026 JavaScript",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://nguyenminhquan2597.github.io/blog-java-js/favicon.ico"
-    }
-  }
-}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://nguyenminhquan2597.github.io/blog-java-js/" accesskey="h" title="Blog Lập Trình Mạng Java &amp; JavaScript (Alt + H)">Blog Lập Trình Mạng Java &amp; JavaScript</a>
+            <a href="http://localhost:1313/blog-java-js/" accesskey="h" title="Blog Lập Trình Mạng Java &amp; JavaScript (Alt + H)">Blog Lập Trình Mạng Java &amp; JavaScript</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -140,17 +71,17 @@ Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụn
         </div>
         <ul id="menu">
             <li>
-                <a href="https://nguyenminhquan2597.github.io/" title="Home">
+                <a href="http://localhost:1313/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyenminhquan2597.github.io/blog/" title="Blog">
+                <a href="http://localhost:1313/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="https://nguyenminhquan2597.github.io/profile/" title="Profile">
+                <a href="http://localhost:1313/profile/" title="Profile">
                     <span>Profile</span>
                 </a>
             </li>
@@ -205,7 +136,7 @@ Mỗi biến cần được khai báo kiểu dữ liệu trước khi sử dụn
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://nguyenminhquan2597.github.io/blog-java-js/">Blog Lập Trình Mạng Java &amp; JavaScript</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/blog-java-js/">Blog Lập Trình Mạng Java &amp; JavaScript</a></span> · 
 
     <span>
         Powered by

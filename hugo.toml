@@ -1,4 +1,6 @@
 baseURL = "https://nguyenminhquan2597.github.io/blog-java-js/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = "vi"
 title = "Blog Lập Trình Mạng Java & JavaScript"
 theme = "PaperMod"
